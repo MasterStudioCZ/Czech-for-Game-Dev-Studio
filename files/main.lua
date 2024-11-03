@@ -8,4 +8,4 @@
 ]]--
 
 require("translation/cs_keys")
-print("Czech localization loaded successfully!")
+print("All files of Czech translation loaded!")
