@@ -6,6 +6,10 @@
 	documentation of most libraries, classes and other things can be found here: http://gamedevstudiogame.com
 	until then you can always decompile the bytecode of all the game Lua files (provided you know what you're doing) to see what all the class/library names are and what their methods are
 ]]--
+translation.addLanguage("cs", "LANGUAGE_CZECH", "Čeština")
+translation.addLanguageFile("cs", "localization/cs_keys")
 
 require("translation/cs_keys")
-print("All files of Czech translation loaded!")
+require("overrides/activities")
+require("overrides/conversations")
+require("overrides/platforms")
