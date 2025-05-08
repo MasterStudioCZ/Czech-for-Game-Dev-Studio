@@ -79,3 +79,10 @@ platforms:getData("polystation_3").releaseText = "C-EXPI vydalo novou konzoli 'P
 platforms:getData("polystation_4").releaseText = "C-EXPI vydalo novou konzoli 'Polystation 4'."
 platforms:getData("polystation_handheld_1").releaseText = "C-EXPI vydalo nový handheld 'Polystation Pocket'."
 platforms:getData("polystation_handheld_2").releaseText = "C-EXPI vydalo nový handheld 'Polystation Pocket 2'."
+
+
+-- Manufacturer actions (game/platform/platform_manufacturers.lua) --
+consoleManufacturers.ADVERTISEMENT_TEXT[1] = "Výrobce MANUFACTURER nedávno podnikl ohledně platformy PLATFORM rozhodnutí, jež učinila mnoho hráčů spokojenými.\n\nU PLATFORM je očekáván nárust v popularitě."
+consoleManufacturers.ADVERTISEMENT_TEXT[2] = "Výrobce MANUFACTURER nedávno zahájil pro platformu PLATFORM velkou marketingovou kampaň.\n\nU PLATFORM je očekáván nárust v popularitě."
+consoleManufacturers.ADVERTISEMENT_TEXT[3] = "Konkurenti výrobce MANUFACTURER nedávno učinili řadu nepopulárních rozhodnutí, jež platformu PLATFORM vykreslily v dobrém světle.\n\nU PLATFORM je očekáván nárust v popularitě."
+consoleManufacturers.ADVERTISEMENT_TEXT[4] = "Výrobce MANUFACTURER oznámil pro svou platformu PLATFORM několik rozhodnutí, která vyvolala u hráčů po celém světě pozitivní odezvu.\n\nU PLATFORM je očekáván nárust v popularitě."
